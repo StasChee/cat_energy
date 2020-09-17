@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+    {% if not isGulpTwig %}
+        {{ function('wp_head') }}
+    {% else %}
+        <link rel="stylesheet" type="text/css" href="styles/style.css" media="screen"/>
+    {% endif %}
+
+</head>
+<body class="body">
+{# check if npm or wp build:  #}{#
+{% if not isGulpTwig %}
+    <p style="color: red"> WP detected </p>
+{% else %}
+    <p style="color: red"> Gulp detected </p>
+{% endif %}#}
+<main class="t-base">
+    {% block body %}
+
+
+    {% endblock %}
+</main>
+
+{% block scripts %}
+    {% if not isGulpTwig %}
+        {{ function('wp_footer') }}
+    {% else %}
+        <script src="./js/scripts.js"></script>
+    {% endif %}
+{% endblock %}
+</body>
+</html>

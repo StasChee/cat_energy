@@ -1,0 +1,27 @@
+{
+  "environment" : "development",
+
+  "viewsDirectory" : "views",
+  "stylesDirectory" : "styles",
+  "javascriptDirectory" : "js",
+  "pngSpriteDirectory" : "images/png_sprite",
+  "imagesDirectory" : "images",
+  "fontsDirectory" : "fonts",
+  "svgSpriteDirectory" : "images/svg_sprite",
+  "svgInlineSpriteDirectory" : "images/svg_sprite_inline",
+  "criticalDirectory" : "critical",
+
+  "sourcePath" : "src",
+  "destinationPath" : "public",
+  "temporaryPath" : ".tmp",
+
+  "template_engine" : "twig",
+
+  "use_babel" : true,
+  "minify_images" : true,
+  "css_source_maps" : false,
+  "js_source_maps" : true,
+  "concatenate_scripts" : false,
+  "critical_css" : false,
+  "inline_css" : false
+}
