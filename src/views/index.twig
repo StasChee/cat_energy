@@ -1,6 +1,13 @@
 {% extends "./layout/base.twig" %}
 
 
-{% block body %}
 
+{% block body %}
+    {% include "sections/navigation.twig" %}
+    {% include "sections/previews.twig" %}
+    {% include "sections/categories.twig" %}
+    {% include "sections/work.twig" %}
+    {% include "sections/example.twig" %}
+    {% include "sections/contacts.twig" %}
+    {% include "sections/footer.twig" %}
 {% endblock %}

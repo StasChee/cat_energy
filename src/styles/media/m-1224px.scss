@@ -1,0 +1,16 @@
+@media (max-width: 1224px) {
+    .s-pre {
+        &__bg-image {
+            width: 513px;
+            height: 700px;
+
+            object-fit: cover;
+        }
+        &__index-image {
+            
+            
+            top: -59px;
+            right: 10px;
+        }
+    }
+}

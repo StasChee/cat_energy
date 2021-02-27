@@ -1,0 +1,87 @@
+.s-categories {
+    margin-bottom: 70px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__slim {
+        width: 570px;
+        min-height: 372px;
+
+        background-color: $c-bg;
+    }
+    &__fit {
+        width: 570px;
+        min-height: 372px;
+
+        background-color: $c-bg;
+    }
+
+    &__title {
+        margin-top: 63px;
+        margin-left: 216px;
+
+        font-size: 36px;
+        font-weight: normal;
+        text-transform: uppercase;
+        
+        &--slim-img{
+            position: relative;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+
+                width: 100px;
+                height: 106px;
+
+                top: -28px;
+                left: -161px;
+
+                background: url('../../image/categories/cat-slim.svg');
+            }
+        }
+        &--fit-img{
+            position: relative;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+
+                width: 134px;
+                height: 100px;
+                
+                top: -22px;
+                left: -179px;
+
+                background: url('../../image/categories/cat-pro.svg');
+            }
+        }
+    }
+    &__descr {
+        max-width: 462px;
+        margin-top: 64px;
+        margin-left: 52px;
+
+        font-family: Arial, sans-serif;
+        
+        font-size: 16px;
+        font-weight: 300;
+
+        color: #444444;
+    }
+    &__link {
+        display: inline-block;
+
+        margin-top: 25px;
+        margin-left: 52px;
+        margin-bottom: 40px;
+
+        font-size: 20px;
+        text-transform: uppercase;
+
+        color: #111111;
+    }
+}
+

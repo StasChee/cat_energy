@@ -41,6 +41,7 @@ a {
 }
 
 a {
+  text-decoration: none;
   color: inherit;
   transition: color 0.3s ease;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -48,9 +49,10 @@ a {
   tap-highlight-color: transparent;
 
   &:hover {
-    color: $c-accent;
+    color: $c-brand;
+    border-bottom: 2px solid $c-brand;
   }
-
+  
   &:focus,
   &:active {
     outline: none;

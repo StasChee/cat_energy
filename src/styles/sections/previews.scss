@@ -1,0 +1,36 @@
+.s-pre {
+    margin-bottom: 268px;
+    &__wrapper {
+        position: relative;
+    }
+    &__title {
+        width: 420px;
+
+        margin-bottom: 31px;
+        margin-left: 85px;
+
+        font-size: 60px;
+        font-weight: normal;
+        line-height: 1;
+    }
+    &__subtitle {
+        margin-left: 85px;
+
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+
+    &__bg-image {
+        position: absolute;
+        z-index: -1;
+        right: -111px;
+        top: -226px;
+    }
+
+    &__index-image {
+        position: absolute;
+        top: -89px;
+        right: 210px;
+    }
+}

@@ -1,0 +1,35 @@
+.footer {
+    min-height: 150px;
+
+    padding-top: 64px;
+
+    background-color: #eaeaea;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+
+        list-style-type: none;
+    }
+    &__item {
+        margin-right: 28px;
+        &--last {
+            margin-right: 0;
+        }
+    }
+    &__academy-wrapper {
+        display: flex;
+        align-items: center;
+        p {
+            margin-right: 23px;
+
+            font-family: Arial;
+
+            color: #444444;
+        }
+    }
+}

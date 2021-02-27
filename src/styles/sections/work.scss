@@ -1,0 +1,51 @@
+.s-work {
+    margin-bottom: 248px;
+    &__title {
+        margin-bottom: 23px;
+
+        font-size: 60px;
+        font-weight: normal;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+
+        list-style-type: none;
+    }
+    &__item {
+        position: relative;
+        &--first {
+            max-width: 201px;
+        }
+        &--second {
+            max-width: 236px;
+        }
+        &--third {
+            max-width: 236px;
+        }
+        &--fourth {
+            max-width: 245px;
+        }
+    }
+    &__img {
+        margin-bottom: 30px;
+    }
+    &__descr {
+        font-family: Arial;
+        color: #444444;
+    }
+    &__number {
+        position: absolute;
+        top: -94px;
+        right: 0px;
+
+        z-index: -1;
+
+        font-size: 281px;
+
+        color: #f2f2f2;
+        &--one {
+            right: -19px;
+        }
+    }
+}

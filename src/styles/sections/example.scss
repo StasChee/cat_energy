@@ -1,0 +1,86 @@
+.s-example {
+    position: relative;
+
+    padding-bottom: 73px;
+
+    background-color: $c-bg;
+    &__title {
+        position: absolute;
+
+        top: -137px;
+
+        font-size: 60px;
+        font-weight: normal;
+    }
+    &__descr {
+        display: inline-block;
+        width: 431px;
+        
+        margin-top: 73px;
+        margin-bottom: 71px;
+
+        font-family: Arial;
+        color: #444444;
+    }
+    &__list {
+        display: flex;
+
+        list-style-type: none;
+    }
+    &__item {
+        position: relative;
+        p {
+            min-width: 162px;
+            min-height: 72px;
+            padding-top: 12px;
+            
+            text-align: center;
+            font-size: 30px;
+
+            border: solid 1px #cdcdcd;
+            border-radius: 3px;
+            
+
+            text-transform: uppercase;
+            color: #111111;
+        }
+        &:nth-child(2) {
+            margin-left: 42px;
+        }
+    }
+    &__border-title {
+        font-family: Arial;
+
+        text-align: center;
+        font-size: 14px;
+        font-weight: normal;
+
+        color: #444444;
+        background-color: $c-bg;
+        &--first {
+            position: absolute;
+
+            top: 60px;
+            left: 23px;
+
+            width: 115px;
+        }
+        &--second {
+            position: absolute;
+
+            top: 60px;
+            left: 10px;
+
+            width: 142px;
+        }
+    }
+    &__money  {
+        margin-top: 64px;
+
+        font-size: 20px;
+        text-transform: uppercase;
+        span {
+            margin-left: 64px;
+        }
+    }
+}

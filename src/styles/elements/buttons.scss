@@ -1,0 +1,31 @@
+.button {
+    width: 245px;
+    height: 52px;
+    
+    text-transform: uppercase;
+    font-size: 20px;
+    
+    background-color: $c-brand;
+    color:#ffffff;
+    font-weight: 400;
+    transition: 0.3s all;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: $c-brand-hover;
+        transition: 0.3s all;
+    }
+
+    &--s-pre {
+        margin-top: 53px;
+        margin-left: 85px;
+
+        @media (max-width: 1000px) {
+            background-color: $c-accent;
+            &:hover {
+                background-color: #883914;
+            }
+        }
+    }
+}

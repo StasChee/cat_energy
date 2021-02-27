@@ -15,11 +15,17 @@
 @import "layout/typographics";
 
 // Elements
-
+@import "elements/buttons.scss";
 // components
 
 // sections
-
+@import "sections/navigation.scss";
+@import "sections/previews.scss";
+@import "sections/categories.scss";
+@import "sections/work.scss";
+@import "sections/example.scss";
+@import "sections/contacts.scss";
+@import "sections/footer.scss";
 
 // templates
 @import "templates/base";
@@ -27,3 +33,10 @@
 
 // bootstrap helpers
 @import "utilities/utilities";
+
+// media
+@import "media/m-1457px.scss";
+@import "media/m-1305px.scss";
+@import "media/m-1251px.scss";
+@import "media/m-1224px.scss";
+@import "media/m-1012px.scss";
